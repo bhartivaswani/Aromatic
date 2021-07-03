@@ -1,0 +1,438 @@
+:root {
+    --white: #fff;
+    --lightpink: #fef3f9;
+    --pink: #d16e99;
+    --brown: #280e19;
+}
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    color: #280e19;
+}
+.logo img{
+    width: 15vw;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+input[type=text].search-text{
+    padding: 2vh 5vw 2vh 1vw;
+    border-color: var(--brown);
+    margin-left: 35vw;
+    margin-top: 5vh;
+}
+.header1{
+    display: flex;
+}
+.number{
+    display: flex;
+}
+.fa-search{
+    position: absolute;
+    left: 71vw;
+    top: 7.5vh;
+}
+.number p{
+    margin: 0px;
+    size: 120%;
+    margin-top: 0.6vh;
+    margin-left: 1vw;
+}
+.number{
+    margin-left: 8vw;
+    margin-top: 5vh;
+}
+.number i{
+    width: 32px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    font-weight: 400;
+}
+.navbar a:hover{
+    color: var(--pink);
+}
+.navbar a:visited{
+    color: var(--brown);
+}
+.navbar{
+    display: flex;
+}
+.navbar-right{
+    display: flex;
+    margin-left: 30vw;
+}
+.navbar-right i:hover{
+    color: #d16e99;
+    cursor: pointer;
+}
+.navbar-right p{
+    margin: 0px;
+    margin-left: 1vw;
+    font-size: 90%;
+}
+.home h1{
+    font-family: 'Lighthaus', sans-serif;
+    font-size: 230%;
+    width: 50vw;
+    margin-left: 10vw;
+    color: var(--brown);
+    margin-top: 18vh;
+    line-height: 9vh;
+}
+.home p{
+    font-size: 80%;
+    margin-left: 10vw;
+    width: 30vw;
+    margin-top: 10vh;
+}
+.home{
+    display: flex;
+    background-image: url("Aromatic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    padding-bottom: 30vh;
+}
+.home-left button{
+    padding: 2vh 2.5vw 2vh 2.5vw;
+    border: none;
+    background-color: #280e19;
+    color: #fff;
+    font-weight: 100;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+.about {
+    margin-left: 13vw;
+    font-family: 'Lighthaus', sans-serif;
+    font-size: 150%;
+}
+.about-img{
+    display: flex;
+    margin-top: 8vh;
+}
+.about-left img{
+    width: 35vw;
+    border-radius: 0px 0px 0px 50px;
+}
+.about-right{
+    margin-left: 5vh;
+}
+.about-right img{
+    height: 35vh;
+    width: 35vw;
+}
+img.him{
+    border-radius: 0px 50px 0px 0px;
+    margin-bottom: 4vh;
+}
+.shopdiv{
+    margin-top: 20vh;
+    margin-left: 14vw;
+}
+.shopdiv h1{
+    font-family: 'Lighthaus', sans-serif;
+    font-size: 180%;
+}
+.plot img{
+    width: 10vw;
+    height:30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plot h2{
+    font-family: 'Lighthaus', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+.plot{
+    width: 28%;
+    height: 50vh;
+}
+.plots-top{
+    display: flex;
+    margin-top: 10vh;
+}
+.plots-bottom{
+    display: flex;
+    margin-top: 8vh;
+}
+.tags button{
+    border: none;
+    background-color: white;
+    height: 4.714vh;
+    margin-right: 0.715vw;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+.tags button:hover{
+    background-color: #fff;
+    border: none;
+    border-color: var(--pink);
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 1.43vw 3px 1.43vw;
+}
+.plot{
+    margin-right: 3.575vw;
+    width: 18.9475vw;
+    box-shadow: 3px 3px 25px #c4c4c4;
+    padding: 3vh 1vw 5vh 1vw;
+    border-radius: 5px;
+    overflow-y: hidden;
+}
+.tags{
+    margin-left: 3vw;
+}
+.plot h4{
+    margin: 0px;
+    font-family:'Lighthaus', sans-serif ;
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 60%;
+}
+.plot h2{
+    margin-top: 0px;
+    margin-bottom: 1.5vh;
+    font-size: 99%;
+}
+.plot i{
+    margin-left: 17vw;
+}
+.plot i:hover{
+    color: var(--pink);
+    cursor: pointer;
+}
+.checked{
+    color: orange;
+}
+.stars{
+    margin-left: 5vw;
+    margin-bottom: 0.3vh;
+}
+.plot:hover{
+    height: 60vh;
+}
+.final button{
+    margin-top: 3.4vh;
+    border: none;
+    color: #fff;
+    background-color: #280e19;
+    padding: 2vh 2.5vw 2vh 2.5vw;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+.fa-star{
+    cursor: pointer;
+}
+.process{
+    margin-left: 10vw;
+    margin-top: 20vh;
+    display: flex;
+}
+.process h2{
+    font-family:'Lighthaus', sans-serif;
+    font-size: 170%;
+    font-weight: 700;
+    margin-top: 13vh;
+}
+.process p{
+    font-size: 83%;
+    width: 20vw;
+    margin-top: 6vh;
+}
+input[type=text].subscribe-text{
+    padding: 2vh 5vw 2vh 0vw;
+    border-color: var(--brown);
+    margin-top: 5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.process img{
+    width: 25vw;
+    margin-right: 2vw;
+}
+img.img-first{
+    border-radius: 00px 0px 0px 50px;
+}
+img.img-second{
+    border-radius: 0px 50px 0px 0px;
+}
+input[type=button]{
+    border: none;
+    color: #fff;
+    background-color: #280e19;
+    padding: 2vh 6.5vw 2vh 6.5vw;
+    cursor: pointer;
+    margin-top: 5vh;
+}
+.process-left{
+    margin-right: 5vw;
+}
+.review {
+    padding-left: 10vw;
+    margin-top: 10vh;
+    padding-top: 15vh;
+    background-color: var(--lightpink);
+    padding-bottom: 10vh;
+}
+.review h1{
+    font-family: 'Lighthaus', sans-serif;
+    font-size: 160%;
+    margin: 0px;
+}
+.review-paper{
+    margin-top: 5vh;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-right: 10vw;
+}
+.paper-top-left h6{
+    margin: 0px;
+    font-weight: 100;
+    margin-top: 0.5vh;
+}
+.paper-top{
+    display: flex;
+}
+.paper-top-left h2{
+    margin: 0px;
+}
+.paper-top-right{
+    margin-left: 22vw;
+}
+.paper{
+    display: inline-block;
+    margin-right: 3vw;
+    background-color: #fff;
+    padding: 40px;
+    width: 40vw;
+    height: 30vh;
+}
+span.span-p{
+    width:150px;
+    word-wrap:break-word;
+    white-space: normal;
+}
+.paper1{
+    border-radius: 70px 0px 0px 0px;
+}
+.paper4{
+    border-radius: 0px 0px 70px 0px;
+}
+.review-paper::-webkit-scrollbar {
+    width: 0.1vw;
+    height: 1vh;
+}
+   
+.review-paper::-webkit-scrollbar-track {
+    box-shadow: none;
+    width: 0.1vw;
+    height: 1vh;
+}
+   
+.review-paper::-webkit-scrollbar-thumb {
+    background-color: var(--brown);
+    outline: 1px solid var(--brown);
+    width: 0.1vw;
+    height: 1vh;
+}
+.services{
+    margin-top: 5vh;
+    padding-top: 15vh;
+    margin-left: 10vw;
+}
+.card h3{
+    font-family: 'Lighthaus', sans-serif;
+    font-size: 90%;
+    margin-top: 4vh;
+    margin-bottom: 0px;
+}
+.card p{
+    width: 20vw;
+    font-size: 85%;
+    margin-top: 1vh;
+}
+.card{
+    padding: 4vh 3vw 3vh 3vw;
+    width: 20vw;
+}
+.card i{
+    color: #d16e99;
+}
+.services{
+    display: flex;
+}
+.column{
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 15vw;
+}
+.column h3{
+    margin: 0px;
+    margin-right: 10vh;
+    font-size: 200%;
+}
+.clavin-h3{
+    font-weight: 100;
+}
+.guess-h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.naurica-h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lanvin-h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.rimmel-h3{
+    font-family: cursive;
+}
+footer{
+    background-color: var(--lightpink);
+    margin-top: 30vh;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+}
+.columns{
+    display: flex;
+}
+.column1 img{
+    width: 15vw;
+}
+.row{
+    margin-left: 8vw;
+}
+.row p{
+    margin-top: 1vh;
+    margin-bottom: 0px;
+}
+.social i{
+    color: #d16e99;
+    margin-right: 1vw;
+}
+.Payment {
+    color: #d16e99;
+}
+.column4 h2{
+    font-size: 95%;
+    margin: 0px;
+    font-weight: 400;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+.column5{
+    margin-top: 5vh;
+}
