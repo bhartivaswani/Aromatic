@@ -46,10 +46,14 @@ input[type=text].search-text{
 .number i{
     width: 32px;
 }
+.navbar{
+    margin-top: 10vh;
+    margin-left: 8vw;
+}
 .navbar a{
     color: black;
     text-decoration: none;
-    margin-left: 5vw;
+    margin-left: 2.5vw;
     margin-top: 2vh;
     font-weight: 400;
 }
@@ -64,7 +68,7 @@ input[type=text].search-text{
 }
 .navbar-right{
     display: flex;
-    margin-left: 30vw;
+    margin-left: 10vw;
 }
 .navbar-right i:hover{
     color: #d16e99;
@@ -74,6 +78,12 @@ input[type=text].search-text{
     margin: 0px;
     margin-left: 1vw;
     font-size: 90%;
+}
+.header-heart{
+    margin-right: 3vw;
+}
+.header-cart{
+    margin-left: 5vw;
 }
 .home h1{
     font-family: 'Lighthaus', sans-serif;
@@ -435,4 +445,7 @@ footer{
 }
 .column5{
     margin-top: 5vh;
+}
+button:hover{
+    
 }
