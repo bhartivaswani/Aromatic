@@ -471,33 +471,6 @@ footer {
   color: #280e19;
   cursor: pointer;
 }
-@media (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
-  }
-  .home {
-    margin-top: 15vh;
-    background-image: url("short.png");
-    fill-opacity: 0.1;
-  }
-  .home-left {
-    width: 100%;
-    width: 700vw;
-    margin-right: 0px;
-  }
-  .home-left h1 {
-    margin: 0px;
-    font-size: 110%;
-    line-height: normal;
-    width: 70vw;
-    margin-left: 10vw;
-  }
-  .home-left p {
-    width: 50vw;
-    margin-top: 4vh;
-    font-size: 50%;
-  }
-}
 .hvr-sweep-to-right {
   display: inline-block;
   vertical-align: middle;
@@ -863,3 +836,117 @@ input[type="button"].subscribe-text:hover{
 span.items-display,span.price-display{
     margin-left: 20vw;
 }
+@media (max-width: 1024px) {
+    body {
+      overflow-x: hidden;
+      width: 100%;
+    }
+    .home {
+      padding-top: 15vh;
+      background-image: url("short.png");
+      fill-opacity: 0.1;
+    }
+    .home-left {
+      width: 100%;
+      width: 700vw;
+      margin-right: 0px;
+      background-color: rgba(255, 255, 255,0.7);
+      width: 80vw;
+      padding: 10px;
+    }
+    .home-left h1 {
+      margin: 0px;
+      font-size: 120%;
+      line-height: normal;
+      width: 80vw;
+      margin-left: 10vw;
+    }
+    .home-left p {
+      width: 50vw;
+      margin-top: 4vh;
+      font-size: 50%;
+    }
+    .home-left button{
+        padding: 12px 20px 12px 20px;
+    }
+    .about-img{
+        display: inline-block;
+    }
+    .about-img img{
+        width: 90vw;
+        height: inherit;
+        margin-left: 0px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .about{
+        margin-left: 3vw;
+    }
+    .about h1{
+        margin: 0px;
+        margin-top: 10vh;
+    }
+    .shopdiv{
+        margin-top: 5vh;
+        margin-left: 10vw;
+    }
+    .plots-top,.plots-bottom{
+        display: block;
+    }
+    .plot{
+        width: 80vw;
+        margin-bottom: 3vh;
+        height: 60vh;
+    }
+    .plot img{
+        width: 50vw;
+    }
+    .plot i{
+        margin-left: 70vw;
+    }
+    .plot .tags{
+        margin-left: 19vw;
+    }
+    button.buy{
+        margin-left: 25vw;
+        padding: 12px 20px 12px 20px;
+        margin-top: 1vh;
+    }
+    .process{
+        display: block;
+    }
+    .process h2{
+        margin: 0px;
+        font-size: 130%;
+    }
+    .process p{
+        width: 80vw;
+        margin-top: 3vh;
+    }
+    .process img{
+        display: none;
+    }
+    .review{
+        display: none;
+    }
+    .services{
+        display: block;
+        padding-top: 0px;
+        padding-bottom: 20vh;
+    }
+    .card{
+        width: 80vw;
+    }
+    .card p{
+        width: 70vw;
+    }
+    .card i{
+        margin-left: 40%;
+    }
+    .column{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+  }
