@@ -836,7 +836,7 @@ input[type="button"].subscribe-text:hover{
 span.items-display,span.price-display{
     margin-left: 20vw;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
     body {
       overflow-x: hidden;
       width: 100%;
